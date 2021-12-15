@@ -1,6 +1,43 @@
-.topnav {
-    background-color: rgb(212, 207, 207);
-    overflow: hidden;
-    padding: 14px 16px;
-    color: #817c7c;
-    
+/*mettre toute la page en Roboto*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*hover en coral pour h1*/
+h1:hover {
+  color: rgb(175, 144, 226);
+}
+h2:hover {
+  letter-spacing: 10px;
+}
+p {
+  word-spacing: 10px;
+}
+/*the navbar is displayed inline*/
+nav {
+  display: inline;
+}
+h3:hover {
+  color: rgb(228, 13, 131);
+}
+h4 {
+  color: rgb(221, 192, 216);
+}
+body {
+  background-image: url("success.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+table {
+  border: 5px outset cornflowerblue;
+  font-size: 20px;
+}
+footer {
+  position: fixed;
+}
+title {
+  color: crimson;
+}
+h2 {
+  border: 3px dashed blueviolet;
+}

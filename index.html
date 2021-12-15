@@ -9,33 +9,40 @@
   <link rel="stylesheet" href="./style.css">
   <!--link to roboto-->
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-  <style>
-    </head><body>< !--create a "header"--><header>< !-- Creating "navbar"with 5 sections home,
-    about,
-    work,
-    resume,
-    contact --><div class="topnav"><a class="active"href="#home">Home</a><a href="#About">About</a><a href="#Work">Work</a><a href="#Resume">Resume</a><a href="#Contact">Contact</a>font-family: 'Roboto';
-    font-size: 22px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+</head>
 
-
-  </div>
+<body>
+  <!-- create a "header"-->
+  <header>
+    <!-- Creating "navbar" with 5 sections home, about, work, resume, contact -->
+    <nav>
+      <!-- change the display of the navbar to make it inline  -->
+      <a href="/home/">Home</a> |
+      <a href="/about/">About</a> |
+      <a href="/work/">Work</a> |
+      <a href="/resume/">Resume</a> |
+      <a href="/contact>">Contact</a> 
+      </nav>
   </header>
-  <section>
+  
+  <div>
     <!--Creating Video section + paragraph + video from youtube-->
     <!--first create the body title & the subheading included all in one section-->
-    <h1> The 1st Website dedicated to Lean Ladies</h1>
+    <h1 class="title"> The 1st Website dedicated to Lean Ladies </h1>
+
     <i>
-      <h2> Your full guide to live like a QUEEN and work like a BOSS </h2>
+           <h2 id="blue-bordered"> Your full guide to live like a QUEEN and work like a BOSS </h2>
     </i>
     <p>Want to implement Lean principles in your daily life ? this website is the one for you. Eventhough the Lean
       Manufacturing was created in the most demanding industrial sector, you can definitely use it in the kitchen
       scheduling your meals or in your Home cleaning routine. As a demanding mom, you can rely on Lean rules, living
       happily with your family</p>
-  </section>
-  <section>
+      <br>
+      
+  </div>
+  <div>
     <!--add list-->
     <h3>Lean tools are</h3>
     <ul>
@@ -43,11 +50,10 @@
       <li>5S</li>
       <li>SMED</li>
     </ul>
-  </section>
-  <section>
-    <!--add selection-->
-    <!-- add tables-->
-    <table border="1">
+  </div>
+  <div>
+      <!-- add tables-->
+    <table>
       <tr>
         <th>JIT</th>
         <th>5S</th>
@@ -59,42 +65,39 @@
         <th>Single Minute Die Exchange</th>
       </tr>
     </table>
-  </section>
-
+  </div>
+ 
   <!--add selection in a HTML Form-->
-  <section>
+  <div>
     <h4>Select your next step to excellence</h4>
     <select name="Select" id="Choose">
       <option value="Learn">Learn about tools</option>
       <option value="subscribe">subscribe for the next course</option>
       <option value="sign for a meeting">sign for one-to-one meeting with our experts</option>
-      <br><br>
-  </section>
+      <br><br> 
+ </div> 
 
-  <!--Second add a photo + youtube video in one "div"-->
-  <div>
-    <img src="Bossy.jpg" alt="Boss Lady" width="320" height="420">
-    <br>
-    <iframe width="620" height="416" src="https://youtu.be/jZH5TeMp4c4" </iframe>
-  </div>
+<div>
+<img src="./top.jpg" alt="Boss Lady" width="420" />
+<!-- <iframe width="620" height="416" src="https://youtu.be/jZH5TeMp4c4"></iframe>  -->
+</div>
 
-  <!--add a buttons-->
-  <br>
-  <form>
-    <label>First Name;</label>
-    <input type="text" name="firstName" id="firstName" />
-    <br>
-    <label>Last Name;</label>
-    <input type="text" name="lastName" id="lastName" />
-    <button type="submit">Submit name</button>
-
-    <!--add a "footer"-->
-    <footer>
-      <p>Author: Amina Hedhili</p>
-      <a href="mailto:lean.lady@gmail.com">lean.lady@gmail.com</a>
-    </footer>
+<!-- add a "footer" -->
+<footer>
+<p>Author: Amina Hedhili</p>
+<a href="mailto:lean.lady@gmail.com">lean.lady@gmail.com</a>
+</footer>
+     
+ 
+  <!-- <div id="footer">
+    <div class="column"><div></div></div>
+    <div class="column"><div></div></div>
+    <div class="column"><div></div></div>
+    <div class="column"><div></div></div>
+</div> -->
 
 
-    </body>
+
+</body>
 
 </html>
